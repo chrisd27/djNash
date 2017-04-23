@@ -1,0 +1,297 @@
+.about{
+    color: white;
+    text-align: center;
+}
+
+.about .container{
+    text-align: left;
+}
+
+.carouselImage img{
+   max-height: 120px !important;
+   max-width: 180px !important;
+}
+
+.carouselImage{
+    display: inline-block !important;
+    padding: 30px;
+    overflow: hidden;
+    width: 170px;
+    height: 170px;
+}
+
+.carousel-inner{
+    height: 170px;
+    width: 200%;
+}
+
+#myCarousel{
+    margin-top: 100px;
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    top: 150px;
+
+}
+
+.carouselContainer{
+    margin: auto;
+}
+
+.galleryContainer{
+    background-color: white;
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+}
+
+
+/*.galleryContainer img{
+    margin: 3px;
+}*/
+
+.galleryContainer h2{
+    color: black;
+    margin-bottom: 70px;
+}
+
+
+
+section.about{
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+section.services{
+    position: relative;
+    overflow: hidden;
+}
+
+section .sectionImage{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+
+section.services .sectionImage{
+    opacity: 0.2;
+}
+
+.text-primary{
+    color: black;
+}
+
+.galleryContainer #homepage-gallery{
+    width: 100%;
+}
+
+.galleryContainer #homepage-gallery h2{
+    color: white;
+}
+
+.jpictura .jpictura-item {
+    margin: 10px;
+}
+
+
+
+/*a.navbar-brand.page-scroll{
+    background-image: url('../images/Nash_Signature.png');
+    background-size: contain;
+    width: 300px;
+    height: 100px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4px;
+}*/
+
+#homepage-gallery{
+    max-height: 300px;
+    overflow: hidden;
+    /*-moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;*/
+}
+.viewMore{
+    text-align: center;
+}
+.viewMore p{
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border: 1px solid white;
+    width: 250px;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#portfolio .viewMore p{
+    width: 300px;
+    background-color: black;
+    border-color: black;
+}
+
+#portfolio .container .row~.row{
+    max-height: 300px;
+    overflow: hidden;
+    /*-moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;*/
+}
+
+#homepage-gallery.removeMaxHeight, #portfolio .container .row~.row.removeMaxHeight{
+    max-height: 100000px;
+    /*-moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;*/
+}
+
+.viewMore p:hover{
+    background: black;
+    transition: all 0.4s;
+}
+
+#portfolio .viewMore p:hover{
+    background-color: white;
+    color: black;
+}
+
+.navbar-header.page-scroll a{
+    color: #006699;
+}
+
+.navbar-custom .navbar-nav>.active>a, #portfolio .portfolio-item .portfolio-link .portfolio-hover{
+    background-color:  #006699;
+}
+
+.portfolio-hover-content p{
+    font-size: 18px;
+}
+
+#portfolio .portfolio-item .portfolio-link{
+    height: 365px;
+}
+#portfolio .portfolio-item .portfolio-link img{
+    margin: auto;
+    max-height: 100%;
+}
+
+.btn.btn-primary{
+    background-color: #006699;
+}
+
+.portfolio-modal .modal-content{
+    padding-top: 0;
+}
+
+.modal-body > div{
+    display: inline-block;
+}
+
+.modal-img-container{
+    float: left;
+    width: 25%;
+    margin-left: 18%;
+}
+
+.modal-description-container{
+    float: right;
+    width: 50%;
+}
+
+.portfolio-modal .modal-content p{
+    margin-bottom: 0 !important;
+}
+
+.portfolio-modal.modal{
+    padding-right: 0 !important;
+}
+
+.portfolio-modal .modal-container p.item-intro{
+    margin-bottom: 20px !important;
+}
+
+.navbar-custom .navbar-toggle, .btn-xl{
+    background-color: #006699 !important;
+}
+
+a{
+    color: white !important;
+}
+
+#contact h3{
+    color: white;
+}
+
+.form-control:placeholder, .form-control:-webkit-input-placeholder, .form-control:-moz-placeholder{
+    color: black;
+}
+
+@media (max-width: 1100px) {
+    .services img{
+        display: none;
+    }
+
+    .carouselImage{
+        display: inline-block !important;
+        padding: 30px;
+        overflow: hidden;
+        width: 140px;
+        height: 140px;
+    }
+
+    .carousel-inner{
+        height: 140px;
+        width: 200%;
+    }
+
+    #myCarousel{
+        top: 100px;
+    }
+}
+
+@media (max-width: 780px) {
+    .services img{
+        display: none;
+    }
+
+    .carouselImage{
+        display: inline-block !important;
+        padding: 30px;
+        overflow: hidden;
+        width: 75px;
+        height: 75px;
+    }
+
+    .carousel-inner{
+        height: 75px;
+        width: 200%;
+    }
+
+    #myCarousel{
+        top: 50px;
+    }
+
+    .about{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .navbar-custom{
+        background-color: transparent;
+    }
+}

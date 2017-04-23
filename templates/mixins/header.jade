@@ -1,0 +1,8 @@
+//- Header
+mixin header(data, clients)
+	header
+		.container
+			.intro-text
+				.intro-heading=data.title
+				.intro-lead-in=data.tagLine
+				+carousel(clients)

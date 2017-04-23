@@ -1,0 +1,28 @@
+// Navigation
+mixin nav()
+	nav#mainNav.navbar.navbar-default.navbar-custom.navbar-fixed-top
+		.container
+			// Brand and toggle get grouped for better mobile display
+			.navbar-header.page-scroll
+				button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+					span.sr-only Toggle navigation
+					|  Menu 
+					i.fa.fa-bars
+				a.navbar-brand.page-scroll(href='#page-top') DJ CHRISTIAN NASH
+			// Collect the nav links, forms, and other content for toggling
+			#bs-example-navbar-collapse-1.collapse.navbar-collapse
+				ul.nav.navbar-nav.navbar-right
+					li.hidden
+						a(href='#page-top')
+					li
+						a.page-scroll(href='#services') Services
+					li
+						a.page-scroll(href='#portfolio') Testimonials
+					li
+						a.page-scroll(href='#about') About
+					li
+						a.page-scroll(href='#team') Gallery
+					li
+						a.page-scroll(href='#contact') Contact
+			// /.navbar-collapse
+		// /.container-fluid

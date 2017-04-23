@@ -1,0 +1,17 @@
+// Services Section
+mixin services(services)
+	section#services.services
+		img(src="#{services[2].image.secure_url}").sectionImage
+		.container
+			.row
+				.col-lg-12.text-center
+					h2.section-heading Services
+					h3.section-subheading.text-muted What I offer
+			.row.text-center
+				each service, service_i in services
+					.col-md-4
+						span.fa-stack.fa-4x
+							i.fa.fa-circle.fa-stack-2x.text-primary
+							i(class="#{service.icon} fa fa-stack-1x fa-inverse")
+						h4.service-heading=service.title
+						p.text-muted!=service.description

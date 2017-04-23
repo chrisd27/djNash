@@ -1,0 +1,22 @@
+// Portfolio Grid Section
+mixin testimonials(testimonials)
+	section#portfolio.bg-light-gray
+		.container
+			.row
+				.col-lg-12.text-center
+					h2.section-heading Testimonials
+					h3.section-subheading.text-muted Hear what my clients have to say!
+			.row
+				each testimonial, testimonial_i in testimonials
+					.col-md-4.col-sm-6.portfolio-item
+						a.portfolio-link(href='#modal'+"#{testimonial_i}", data-toggle='modal')
+							.portfolio-hover
+								.portfolio-hover-content
+									p Read more!
+							img.img-responsive(src='#{testimonial.image.secure_url}', alt='')
+						.portfolio-caption
+							h4=testimonial.title
+							p.text-muted=testimonial.tagLine
+			.viewMore
+				p View more Testimonials
+				

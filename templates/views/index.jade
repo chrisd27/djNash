@@ -1,0 +1,11 @@
+extends ../layouts/default
+
+block content
+    +header(data.home[0], data.clients)
+    +services(data.services)
+    +gallery(data.gallery)
+    +about(data.about[0])
+    +testimonials(data.testimonials)
+    +contact
+    +footer
+    +modal(data.testimonials)

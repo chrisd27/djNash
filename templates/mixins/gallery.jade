@@ -1,0 +1,21 @@
+mixin gallery(galleries)
+    .galleryContainer(style="background-image: url('#{galleries[0].backgroundImage.secure_url}')")
+        .container#homepage-gallery
+            if galleries.length
+                each gallery in galleries
+                    h2= gallery.name
+                        //- if gallery.publishedDate
+                        //-     .pull-right.text-muted= gallery._.publishedDate.format('Do MMM YYYY')
+                    
+                    .row.gallery-images
+                        if gallery.heroImage.exists
+                            .col-sm-8.col-md-8: .row
+                                each image in gallery.images
+                                    .item.gallery-image: img(src=image.limit(300,300)).img-rounded
+                        else
+                            each image in gallery.images
+                                .item.gallery-image: img(src=image.limit(300,300)).img-rounded
+            else
+                h3.text-muted There are no image galleries yet.
+        .viewMore
+            p View more photos

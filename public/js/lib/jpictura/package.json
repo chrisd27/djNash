@@ -1,0 +1,113 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "jpictura",
+        "scope": null,
+        "escapedName": "jpictura",
+        "name": "jpictura",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\chris\\Desktop\\projects\\djNashKeystone"
+    ]
+  ],
+  "_from": "jpictura@latest",
+  "_id": "jpictura@1.2.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/jpictura",
+  "_nodeVersion": "0.12.7",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/jpictura-1.2.3.tgz_1470926454754_0.16894443822093308"
+  },
+  "_npmUser": {
+    "name": "anmarcek",
+    "email": "anmarcek@gmail.com"
+  },
+  "_npmVersion": "2.11.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "jpictura",
+    "scope": null,
+    "escapedName": "jpictura",
+    "name": "jpictura",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jpictura/-/jpictura-1.2.3.tgz",
+  "_shasum": "770b23e577f3141a3b77ad14329bcb56c7f48576",
+  "_shrinkwrap": null,
+  "_spec": "jpictura",
+  "_where": "C:\\Users\\chris\\Desktop\\projects\\djNashKeystone",
+  "author": {
+    "name": "Anton Marček"
+  },
+  "bugs": {
+    "url": "https://github.com/anmarcek/jpictura/issues"
+  },
+  "dependencies": {
+    "jquery": ">=1.7.2"
+  },
+  "description": "A simple jQuery plugin for responsive alignment of images.",
+  "devDependencies": {
+    "angular": ">=1.3.11",
+    "angular-animate": "^1.5.2",
+    "angular-material": "~1.0.6",
+    "angular-messages": "^1.5.2",
+    "del": "^1.2.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.4.3",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-less": "^3.0.3",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.3",
+    "gulp-uglify": "^1.1.0",
+    "gulp-zip": "^3.1.0",
+    "jpictura-core": "~0.1.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dist": {
+    "shasum": "770b23e577f3141a3b77ad14329bcb56c7f48576",
+    "tarball": "https://registry.npmjs.org/jpictura/-/jpictura-1.2.3.tgz"
+  },
+  "gitHead": "0b7155186a62a2d80f6771367f72a144e96156f3",
+  "homepage": "https://github.com/anmarcek/jpictura#readme",
+  "keywords": [
+    "photo",
+    "gallery",
+    "align",
+    "image",
+    "picture",
+    "resize"
+  ],
+  "license": "MIT",
+  "main": "dist/jpictura.js",
+  "maintainers": [
+    {
+      "name": "anmarcek",
+      "email": "anmarcek@gmail.com"
+    }
+  ],
+  "name": "jpictura",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anmarcek/jpictura.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.3"
+}

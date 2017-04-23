@@ -1,0 +1,33 @@
+// About
+mixin about(about)
+	section.about
+		img(src="#{about.image.secure_url}").sectionImage
+		h2=about.title
+		.container
+			.row
+				.aboutContent
+					h3=about.content.title
+					p!=about.content.content
+				
+				//- else if about.contentThree != undefined
+				//- 	.col-md-3.aboutContent
+				//- 		h3=about.contentOne.title
+				//- 		p!=about.contentOne.content
+				//- 	.col-md-3.aboutContent
+				//- 		h3=about.contentTwo.title
+				//- 		p!=about.contentOne.content
+				//- 	.col-md-3.aboutContent
+				//- 		h3=about.contentThree.title
+				//- 		p!=about.contentOne.content
+				//- else if about.contentTwo != undefined
+				//- 	.col-md-3.aboutContent
+				//- 		h3=about.contentOne.title
+				//- 		p!=about.contentOne.content
+				//- 	.col-md-3.aboutContent
+				//- 		h3=about.contentTwo.title
+				//- 		p!=about.contentOne.content
+				//- else if about.contentOne != undefined
+				//- 	.col-md-3.aboutContent
+				//- 		h3=about.contentOne.title
+				//- 		p!=about.contentOne.content
+				

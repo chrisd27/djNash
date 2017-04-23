@@ -1,0 +1,23 @@
+// Portfolio Modal 1
+mixin modal(testimonials)
+  each testimonial, testimonial_i in testimonials
+    div(id="modal"+"#{testimonial_i}").portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+      .modal-dialog
+        .modal-content
+          .close-modal(data-dismiss='modal')
+            .lr
+              .rl
+          .container
+            .row
+              .modal-container
+                .modal-body
+                  // Project Details Go Here
+                  h2=testimonial.title
+                  p.item-intro.text-muted=testimonial.tagLine
+                  .modal-img-container
+                    img.img-responsive(src='#{testimonial.image.secure_url}', alt='')
+                  .modal-description-container
+                    p!=testimonial.description
+                    button.btn.btn-primary(type='button', data-dismiss='modal')
+                      i.fa.fa-times
+                      |  Close
